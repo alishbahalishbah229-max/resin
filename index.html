@@ -1,0 +1,420 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#061619">
+  <meta name="description" content="Discover handcrafted ocean-inspired resin art, luxury home decor, resin trays, clocks, coasters and custom creations.">
+  <title>NERA — Art in Every Layer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Allura&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader-mark">N<span>.</span></div>
+    <p>CRAFTING SOMETHING BEAUTIFUL</p>
+    <div class="loader-line"><span></span></div>
+  </div>
+
+  <div class="cursor-glow"></div>
+  <div class="grain"></div>
+
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home" aria-label="NERA home">
+      <span class="brand-symbol">N</span>
+      <span>NERA<small>RESIN ATELIER</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">Our Story</a>
+      <a class="nav-link" href="#collection">Collection</a>
+      <a class="nav-link" href="#process">Our Process</a>
+      <a class="nav-link" href="#gallery">Gallery</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-shop" href="#collection">Explore Art <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="particles" id="particles"></div>
+
+      <div class="hero-content">
+        <div class="eyebrow reveal">
+          <span class="eyebrow-line"></span>
+          HANDCRAFTED ART · INSPIRED BY THE OCEAN
+        </div>
+
+        <h1 class="hero-title reveal">
+          Where the ocean<br>
+          meets <em>artistry.</em>
+        </h1>
+
+        <p class="hero-description reveal">
+          Capturing the untamed beauty of the sea in timeless,
+          handcrafted resin creations. Every wave tells a story.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="#collection" class="button button-gold">
+            Discover the Collection <span>↗</span>
+          </a>
+          <a href="#about" class="text-link">The art behind it <span>↓</span></a>
+        </div>
+
+        <div class="hero-bottom reveal">
+          <div class="hero-note">
+            <span class="note-dot"></span>
+            ONE OF A KIND. ALWAYS.
+          </div>
+          <div class="hero-index">01 <span>/</span> 05</div>
+        </div>
+      </div>
+
+      <div class="hero-caption">
+        <span>THE OCEAN, PRESERVED.</span>
+        <span>24°51' N — INSPIRED BY ENDLESS BLUE</span>
+      </div>
+
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to our story">
+        <span class="scroll-wheel"></span>
+        <span>SCROLL TO DISCOVER</span>
+      </a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-label="Handcrafted with love">
+      <div class="marquee-track">
+        <span>ART INSPIRED BY NATURE <i>✳</i> MADE SLOWLY, LOVED FOREVER <i>✳</i> NO TWO PIECES ALIKE <i>✳</i> ART INSPIRED BY NATURE <i>✳</i> MADE SLOWLY, LOVED FOREVER <i>✳</i> NO TWO PIECES ALIKE <i>✳</i></span>
+        <span aria-hidden="true">ART INSPIRED BY NATURE <i>✳</i> MADE SLOWLY, LOVED FOREVER <i>✳</i> NO TWO PIECES ALIKE <i>✳</i> ART INSPIRED BY NATURE <i>✳</i> MADE SLOWLY, LOVED FOREVER <i>✳</i> NO TWO PIECES ALIKE <i>✳</i></span>
+      </div>
+    </div>
+
+    <!-- STORY -->
+    <section class="story section-light" id="about">
+      <div class="story-decoration decoration-one"></div>
+      <div class="story-decoration decoration-two"></div>
+
+      <div class="story-grid container">
+        <div class="story-visual reveal">
+          <div class="story-image image-drift">
+            <img
+              src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1000&q=85"
+              alt="Artful, warm interior inspiration"
+              loading="lazy">
+          </div>
+          <div class="story-image-small">
+            <img
+              src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=600&q=85"
+              alt="Ocean-inspired blue artwork"
+              loading="lazy">
+          </div>
+          <div class="story-stamp">
+            <span>POURED</span>
+            <span>WITH</span>
+            <strong>♡</strong>
+            <span>IN EVERY</span>
+            <span>LAYER</span>
+          </div>
+        </div>
+
+        <div class="story-copy reveal">
+          <div class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> A LITTLE ABOUT NERA</div>
+          <h2>Not just decor.<br>A piece of <em>the ocean.</em></h2>
+          <p class="story-lead">
+            We believe the most beautiful things cannot be rushed.
+          </p>
+          <p>
+            NERA was born from a fascination with the sea — its endless
+            movement, hidden depths and the way sunlight dances across
+            its surface. We bring that feeling into your home through
+            carefully layered resin and considered design.
+          </p>
+          <p>
+            Every piece is made by hand, with its own natural flow,
+            individual details and a character that can never be
+            perfectly repeated.
+          </p>
+
+          <a href="#process" class="button button-dark">How it's made <span>↗</span></a>
+
+          <div class="story-signature">Made by hand, kept forever.</div>
+        </div>
+      </div>
+
+      <div class="values container">
+        <div class="value-item reveal">
+          <span class="value-number">01</span>
+          <div><h3>Handcrafted</h3><p>Made with care, layer by layer.</p></div>
+        </div>
+        <div class="value-item reveal">
+          <span class="value-number">02</span>
+          <div><h3>Nature Inspired</h3><p>Organic forms and ocean tones.</p></div>
+        </div>
+        <div class="value-item reveal">
+          <span class="value-number">03</span>
+          <div><h3>Uniquely Yours</h3><p>Custom pieces for your space.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLECTION -->
+    <section class="collection section-dark" id="collection">
+      <div class="section-glow"></div>
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> THE SIGNATURE COLLECTION</div>
+            <h2>Little things.<br><em>Lasting wonder.</em></h2>
+          </div>
+          <p>Ocean moods, captured in resin.<br>Discover your next favourite piece.</p>
+        </div>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filter products">
+          <button class="filter-button active" data-filter="all">All creations <span>04</span></button>
+          <button class="filter-button" data-filter="decor">Home decor</button>
+          <button class="filter-button" data-filter="wearable">Wearable art</button>
+          <button class="filter-button" data-filter="functional">Functional art</button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal" data-category="functional">
+            <a href="#contact" class="product-image">
+              <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=850&q=85" alt="Artful handcrafted home accessories" loading="lazy">
+              <span class="product-tag">BESTSELLER</span>
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Ocean Coasters</h3><p>Little waves for everyday rituals</p></div>
+              <span class="product-price">From PKR 2,500</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="decor">
+            <a href="#contact" class="product-image">
+              <img src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=850&q=85" alt="Blue abstract ocean artwork" loading="lazy">
+              <span class="product-tag">SIGNATURE</span>
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Azure Wall Art</h3><p>Deep blue, gold and flowing tides</p></div>
+              <span class="product-price">From PKR 6,500</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="functional">
+            <a href="#contact" class="product-image">
+              <img src="https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&w=850&q=85" alt="Beautifully arranged creative workspace" loading="lazy">
+              <span class="product-tag">HAND POURED</span>
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Signature Tray</h3><p>A little luxury for your table</p></div>
+              <span class="product-price">From PKR 4,000</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="wearable">
+            <a href="#contact" class="product-image">
+              <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=850&q=85" alt="Artisan-inspired jewellery" loading="lazy">
+              <span class="product-tag">MADE FOR YOU</span>
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Sea Glass Pendant</h3><p>Carry a little piece of blue</p></div>
+              <span class="product-price">From PKR 1,800</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="demo-note reveal">A preview collection — images and prices are demo content and can be customised.</p>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process section-light" id="process">
+      <div class="container">
+        <div class="process-heading reveal">
+          <div class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> THE MAKING OF MAGIC</div>
+          <h2>From a little idea<br>to <em>forever art.</em></h2>
+          <p>Patience, precision and a little bit of ocean magic.</p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-step reveal">
+            <div class="process-image">
+              <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=600&q=85" alt="Creative planning and design" loading="lazy">
+              <span class="process-count">01</span>
+            </div>
+            <h3>Imagine</h3>
+            <p>We start with an idea, a colour palette and inspiration from nature.</p>
+          </article>
+          <article class="process-step reveal">
+            <div class="process-image">
+              <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=600&q=85" alt="Artistic materials and colours" loading="lazy">
+              <span class="process-count">02</span>
+            </div>
+            <h3>Pour</h3>
+            <p>Colours, pigments and transparent layers find their own beautiful flow.</p>
+          </article>
+          <article class="process-step reveal">
+            <div class="process-image">
+              <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=85" alt="Beautiful art and home styling" loading="lazy">
+              <span class="process-count">03</span>
+            </div>
+            <h3>Transform</h3>
+            <p>Time allows the layers to cure while the design comes together.</p>
+          </article>
+          <article class="process-step reveal">
+            <div class="process-image">
+              <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=600&q=85" alt="Finished art displayed in a beautiful space" loading="lazy">
+              <span class="process-count">04</span>
+            </div>
+            <h3>Adore</h3>
+            <p>We finish each piece with care, ready to find a home of its own.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE BANNER -->
+    <section class="quote-banner">
+      <div class="quote-image"></div>
+      <div class="quote-overlay"></div>
+      <div class="quote-content reveal">
+        <span class="quote-mark">“</span>
+        <h2>There is poetry<br>in every <em>layer.</em></h2>
+        <p>Not made by machines. Made with meaning.</p>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery section-dark" id="gallery">
+      <div class="container">
+        <div class="section-heading gallery-heading reveal">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> THE NERA JOURNAL</div>
+            <h2>A world of <em>blue.</em></h2>
+          </div>
+          <p>Every creation has a story.<br>Here's a glimpse of ours.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-large reveal" data-image="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=1500&q=90" aria-label="View blue art">
+            <img src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=1100&q=85" alt="Abstract blue artwork" loading="lazy">
+            <span class="gallery-overlay"><span>01 / OCEAN DREAMS</span><b>↗</b></span>
+          </button>
+          <button class="gallery-item reveal" data-image="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=1500&q=90" aria-label="View handmade accessories">
+            <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=800&q=85" alt="Handcrafted home accessories" loading="lazy">
+            <span class="gallery-overlay"><span>02 / LITTLE DETAILS</span><b>↗</b></span>
+          </button>
+          <button class="gallery-item reveal" data-image="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1500&q=90" aria-label="View jewellery">
+            <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=800&q=85" alt="Artisan jewellery details" loading="lazy">
+            <span class="gallery-overlay"><span>03 / GOLDEN MOMENTS</span><b>↗</b></span>
+          </button>
+          <button class="gallery-item reveal" data-image="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1500&q=90" aria-label="View artistic process">
+            <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=85" alt="Creative art process" loading="lazy">
+            <span class="gallery-overlay"><span>04 / IN THE MAKING</span><b>↗</b></span>
+          </button>
+          <button class="gallery-item gallery-wide reveal" data-image="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1500&q=90" aria-label="View artful interiors">
+            <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1100&q=85" alt="Artful interior details" loading="lazy">
+            <span class="gallery-overlay"><span>05 / A SLOWER KIND OF BEAUTY</span><b>↗</b></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact-texture"></div>
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-line"></span> LET'S MAKE IT PERSONAL</div>
+          <h2>Dream it.<br><em>We'll pour it.</em></h2>
+          <p>Have a colour in mind, a special occasion or a space that needs something extraordinary? Let's create something that feels like you.</p>
+          <div class="contact-details">
+            <span>MADE WITH INTENTION</span>
+            <span>CREATED JUST FOR YOU</span>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <h3>Tell us your idea.</h3>
+          <p>Share a few details and let's get inspired.</p>
+
+          <div class="form-row">
+            <label>Your name
+              <input type="text" name="name" placeholder="What should we call you?" required maxlength="80">
+            </label>
+            <label>Email address
+              <input type="email" name="email" placeholder="you@example.com" required maxlength="150">
+            </label>
+          </div>
+
+          <label>What are you dreaming of?
+            <select name="project" required>
+              <option value="" disabled selected>Choose your creation</option>
+              <option>Ocean coasters</option>
+              <option>Resin tray</option>
+              <option>Wall art</option>
+              <option>Jewellery</option>
+              <option>A completely custom piece</option>
+            </select>
+          </label>
+
+          <label>Tell us a little more
+            <textarea name="message" rows="4" placeholder="Colours, occasion, ideas... anything inspiring!" required maxlength="1500"></textarea>
+          </label>
+
+          <button type="submit" class="button button-gold form-submit">Prepare My Enquiry <span>↗</span></button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+          <p class="form-footnote">Demo form · No information is sent or stored.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-symbol">N</span>
+        <span>NERA<small>RESIN ATELIER</small></span>
+      </a>
+      <p>Art in every layer. Beauty in every detail.</p>
+      <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> NERA RESIN ATELIER</span>
+      <span>HANDCRAFTED WITH <span class="heart">♥</span></span>
+      <div class="footer-links">
+        <a href="#about">Our story</a>
+        <a href="#collection">Collection</a>
+        <a href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GALLERY LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <img id="lightboxImage" src="" alt="Expanded artwork">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
